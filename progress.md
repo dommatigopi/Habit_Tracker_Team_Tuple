@@ -53,7 +53,7 @@ ____
 
 ## Role A: Storage (`storage.py`)
 
-**Name:** ____
+**Name:** Gopikrishina Dommati
 
 **Team tasks:** `contract.md` (Week 3), `.gitignore`, `.gitattributes`, `requirements.txt`, lead the Week 5 mini-integration.  
 **Integration test:** `test_integration_A.py`  
@@ -71,7 +71,7 @@ ____
 
 ## Role B: Habit Manager (`habits.py`)
 
-**Name:** ____
+**Name:** 	Adithya Darga
 
 **Team tasks:** in Week 3 copy `progress_template.md` to `progress.md` and create the `design_patterns.md` skeleton; keep the group section of this file; write the Week 5 lines.  
 **Integration test:** `test_integration_B.py`  
@@ -89,7 +89,7 @@ ____
 
 ## Role C: Analytics (`analytics.py`)
 
-**Name:** ____
+**Name:** Pranadir Bhagavanth Sena Reddy Bakaram
 
 **Team tasks:** run `python check_contract.py all full` and `python check_contract.py main full` in Week 7 and post both outputs.  
 **Integration test:** `test_integration_C.py`  
@@ -107,7 +107,7 @@ ____
 
 ## Role D: Reports and Charts (`reports.py`)
 
-**Name:** ____
+**Name:** Sai Ram Kolluri
 
 **Team tasks:** `README.md` (skeleton in Week 3, install, run, example session).  
 **Integration test:** `test_integration_D.py`  
@@ -125,7 +125,7 @@ ____
 
 ## Role E: Command-Line App (`main.py`, `utils.py`)
 
-**Name:** ____
+**Name:** Roopesh Marneni
 
 **Team tasks:** none beyond the app.  
 **Integration test:** `test_integration_E.py`  
