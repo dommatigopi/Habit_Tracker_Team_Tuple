@@ -1,30 +1,86 @@
-# Habit_Tracker_Team_Tuple
+# Habit Tracker – Team Tuple
 
-A terminal-based habit tracking application developed in Python as part of the *Python for Data Science* group project at SRH Hochschule Heidelberg.
+## 1. Project Overview
 
-The application allows users to define custom habits, log daily progress, inspect streaks and completion analytics, generate summary reports and charts, and persist data across restarts.
+Habit Tracker is a terminal-based habit tracking application developed using Python as part of the Python for Data Science group project at SRH Hochschule Heidelberg.
+
+The application allows users to create and manage daily habits, record their progress, monitor streaks, analyse completion statistics, and generate summary reports and charts.
+
+## 2. Project Objectives
+
+- Create and manage personal habits.
+- Track daily habit completion.
+- Calculate current and longest habit streaks.
+- Analyse habit completion statistics.
+- Generate summary reports and visualizations.
+- Store habit data for future use.
+
+## 3. Project Features
+
+- Custom habit creation and management.
+- Daily progress tracking.
+- Current and longest streak calculation.
+- Habit completion analytics.
+- Summary report generation.
+- Data visualization and charts.
+- Persistent data storage.
+
+## 4. Technologies Used
+
+- Python 3.10+
+- JSON for data storage
+- Matplotlib for data visualization
+- Git and GitHub for version control
+
+## 5. Project Structure
+
+The application is divided into separate Python modules:
+
+| File | Description |
+|---|---|
+| `main.py` | Main application and menu management |
+| `utils.py` | Common utility functions |
+| `storage.py` | Data storage and retrieval |
+| `habits.py` | Habit creation and management |
+| `analytics.py` | Statistics and streak calculations |
+| `reports.py` | Reports and data visualization |
+
+## 6. Team Members and Responsibilities
+
+| Role | Student Name | Module / File |
+|---|---|---|
+| Role A | Gopi Krishna | `storage.py` |
+| Role B | Adithya Darga | `habits.py` |
+| Role C | Pranadir | `analytics.py` |
+| Role D | Sai Ram | `reports.py` |
+| Role E | Roopesh Marneni | `main.py`, `utils.py` |
+
+## 7. Installation and Setup
+
+
+## 8. How to Run the Application
+
+
+## 9. Usage Instructions
+
+
+## 10. Testing
+
+
+## 11. Project Documentation
+
+Additional project documentation:
+
+- `contract.md` – Project requirements and team responsibilities.
+- `progress.md` – Project progress tracking.
+- `design_patterns.md` – Software design patterns and architectural decisions.
+
+## 12. License
+
 
 ---
 
-## Team Tuple & Assigned Roles
-
-| Role | Student Name | Matriculation ID | Module / File |
-| :--- | :--- | :--- | :--- |
-| **Role A** | Gopi Krishna | 100010290 | `storage.py` |
-| **Role B** | Adithya Darga | 100008784 | `habits.py` |
-| **Role C** | Pranadir | 100010280 | `analytics.py` |
-| **Role D** | Sai Ram | 100010955 | `reports.py` |
-| **Role E** | Roopesh Marneni | 100008806 | `main.py`, `utils.py` |
-
----
-
-## Prerequisites & Installation Instructions
-
-* **Python Version:** Python 3.10 or newer (tested on Python 3.12)
-* **Operating System:** Cross-platform (Windows, macOS)
-* **Internet Connection:** Not required to run the application
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/dommatigopi/Habit_Tracker_Team_Tuple.git](https://github.com/dommatigopi/Habit_Tracker_Team_Tuple.git)
-cd Habit_Tracker_Team_Tuple
+**Project:** Habit Tracker – Team Tuple  
+**Course:** Python for Data Science  
+**University:** SRH Hochschule Heidelberg  
+**Academic Programme:** Applied Data Science and Artificial Intelligence
