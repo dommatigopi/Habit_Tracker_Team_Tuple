@@ -1,4 +1,5 @@
-#stub
+#STUB
+
 def display_manu():
   print('-'*40)
   print(" Habit Tracker ")
