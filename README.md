@@ -18,7 +18,7 @@ The application allows users to define custom habits, log daily progress, inspec
 
 ---
 
-## Prerequisites & Installation
+## Prerequisites & Installation Instructions
 
 * **Python Version:** Python 3.10 or newer (tested on Python 3.12)
 * **Operating System:** Cross-platform (Windows, macOS)
