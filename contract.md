@@ -92,8 +92,8 @@ Write the calendar date of each milestone. The handout gives week numbers (use t
 
 | Milestone | Date | Done |
 |---|---|---|
-| Week 3, part 1: groups and roles final | ____ | [ ] |
-| Week 3, part 2: contract signed, Roles A to D stubs (quick check passes); Role E menu stub, `.gitignore`, `.gitattributes` and `requirements.txt` added (Role A), README.md skeleton (Role D); `progress.md` copied and `design_patterns.md` skeleton created (Role B) | ____ | [ ] |
+| Week 3, part 1: groups and roles final | 2026-11-02 | [Done] |
+| Week 3, part 2: contract signed, Roles A to D stubs (quick check passes); Role E menu stub, `.gitignore`, `.gitattributes` and `requirements.txt` added (Role A), README.md skeleton (Role D); `progress.md` copied and `design_patterns.md` skeleton created (Role B) | 2026-11-04 | [Done] |
 | Week 5: mini-integration (led by Role A) | ____ | [ ] |
 | End of Week 6: every module passes its `full` check, every student has pushed their `test_integration_X.py` and their peer review | ____ | [ ] |
 | Week 7, part 1: integration done (all five integration tests pass) and code frozen (freeze checklist done by all) | ____ | [ ] |
