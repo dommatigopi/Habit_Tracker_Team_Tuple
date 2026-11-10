@@ -135,7 +135,7 @@ Role E has two checks: `python check_contract.py utils` (`full`) for `utils.py` 
 
 | Week | Done this week | Blocked / need help | Plan for next week | Checker result (`utils` / `main`) | What works in the app | Integration test |
 |---|---|---|---|---|---|---|
-| 3 (stub) | Created git repository and Added #STUBS | No |  Defining Functions |Displaying Habit Tracker Menu | __ |
+| 3 (stub) | Created git repository and Added #STUBS | No |  Defining Functions | __ | __ | __ |
 | 4 | ____ | ____ | ____ | ____ | ____ | ____ |
 | 5 | ____ | ____ | ____ | ____ | ____ | ____ |
 | 6 | ____ | ____ | ____ | ____ | ____ | ____ |
