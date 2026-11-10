@@ -26,7 +26,7 @@
 
 | Week | Did we meet? (yes / no) | Main decision or problem |
 |---|---|---|
-| 4 | ____ | ____ |
+| 4 | Yes | Defined Main Functions |
 | 5 | ____ | ____ |
 | 6 | ____ | ____ |
 | 7 | ____ | ____ |
