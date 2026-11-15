@@ -99,7 +99,7 @@ ____
 |---|---|---|---|---|---|
 | 3 (stub) | Created git repository and Added #STUBS | NO | Defining Functions | PASS | ____ |
 | 4 | Defined functions | No | code and mini integration | PASS | ____ |
-| 5 | ____ | ____ | ____ | ____ | ____ |
+| 5 | Code written | No | Review the complete code | PASS | Done |
 | 6 | ____ | ____ | ____ | ____ | ____ |
 | 7 | ____ | ____ | ____ | ____ | ____ |
 
