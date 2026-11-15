@@ -54,5 +54,5 @@ def delete_habit_flow():
 def run_app():
     pass
 
-if__name__== "__main__":
-main()
+if __name__ == "__main__":
+    run_app()
