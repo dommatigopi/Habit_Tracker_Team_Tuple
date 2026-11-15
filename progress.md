@@ -80,7 +80,7 @@ ____
 | Week | Done this week | Blocked / need help | Plan for next week | Checker result | Integration test |
 |---|---|---|---|---|---|
 | 3 (stub) | Created git repository and Added #STUBS | No |  Defining Functions | PASS | __ |
-| 4 | ____ | ____ | ____ | ____ | ____ |
+| 4 | Defined functions | no | code and mini integration | PASS | __ |
 | 5 | ____ | ____ | ____ | ____ | ____ |
 | 6 | ____ | ____ | ____ | ____ | ____ |
 | 7 | ____ | ____ | ____ | ____ | ____ |
