@@ -137,6 +137,6 @@ Role E has two checks: `python check_contract.py utils` (`full`) for `utils.py` 
 |---|---|---|---|---|---|---|
 | 3 (stub) | Created git repository and Added #STUBS | No |  Defining Functions | No | Project planning | Not started |
 | 4 | Defined basic functions in main.py and utils.py | No | mini-integration testing and Coding | Pass | Basic menu | Not Yet |
-| 5 | ____ | ____ | ____ | ____ | ____ | ____ |
+| 5 | Defined utility functions in utils.py and Created test_integration_E.py to check module connections.| No | Review the four integration test files from Roles A–D | Pass | Main menu and available menu functions work with the current module implementation | Done |
 | 6 | ____ | ____ | ____ | ____ | ____ | ____ |
 | 7 | ____ | ____ | ____ | ____ | ____ | ____ |
