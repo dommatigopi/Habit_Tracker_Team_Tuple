@@ -116,8 +116,8 @@ ____
 | Week | Done this week | Blocked / need help | Plan for next week | Checker result | Integration test |
 |---|---|---|---|---|---|
 | 3 (stub) | Created git repository and added #STUBS | NO | Defining functions | pass | ____ |
-| 4 | ____ | ____ | ____ | ____ | ____ |
-| 5 | ____ | ____ | ____ | ____ | ____ |
+| 4 | Defined function | no  | code and mini integration | pass | ____ |
+| 5 | code written | no | Review the complete code | pass | Done |
 | 6 | ____ | ____ | ____ | ____ | ____ |
 | 7 | ____ | ____ | ____ | ____ | ____ |
 
