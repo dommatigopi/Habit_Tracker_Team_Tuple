@@ -27,7 +27,7 @@
 | Week | Did we meet? (yes / no) | Main decision or problem |
 |---|---|---|
 | 4 | Yes | Defined Main Functions |
-| 5 | ____ | ____ |
+| 5 | yes | Integration Test |
 | 6 | ____ | ____ |
 | 7 | ____ | ____ |
 
@@ -81,7 +81,7 @@ ____
 |---|---|---|---|---|---|
 | 3 (stub) | Created git repository and Added #STUBS | No |  Defining Functions | PASS | __ |
 | 4 | Defined functions | no | code and mini integration | PASS | __ |
-| 5 | ____ | ____ | ____ | ____ | ____ |
+| 5 | Code written | no | Review the complete code | PASS | Done |
 | 6 | ____ | ____ | ____ | ____ | ____ |
 | 7 | ____ | ____ | ____ | ____ | ____ |
 
