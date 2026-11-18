@@ -7,7 +7,7 @@ from pathlib import Path
 class TestStorage(unittest.TestCase):
 
     def test_load_data(self):
-        with tempfile.TemporarayDirectory() as folder:
+        with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / "habits.json"
             data = storage.load_data(path)
             self.assertEqual(data, {"habits":[]})
