@@ -1,14 +1,3 @@
-"""Analytics and streak calculation module for Habit Tracker (Role C).
-
-Provides algorithms for:
-- Current streak calculation
-- Longest historical streak calculation
-- Completion percentage rates
-- Weekly completion summaries
-
-Does not import any other project module.
-"""
-
 from __future__ import annotations
 
 from datetime import date, datetime, timedelta
@@ -16,10 +5,6 @@ from typing import Any
 
 
 def parse_date(value: Any) -> date | None:
-    """Safely parse a date object or YYYY-MM-DD string into a date.
-
-    Returns None if the value cannot be parsed.
-    """
     if isinstance(value, date):
         return value
     if not isinstance(value, str):
@@ -31,7 +16,6 @@ def parse_date(value: Any) -> date | None:
 
 
 def _extract_dates(habit: Any) -> list[date]:
-    """Extract valid date objects from a habit dictionary or date list."""
     raw_dates: list[Any] = []
     if isinstance(habit, dict):
         raw_dates = habit.get("completed_dates", [])
@@ -51,12 +35,6 @@ def calculate_current_streak(
     habit: Any = None,
     today: date | str | None = None,
 ) -> int:
-    """Calculate consecutive daily completions up to today or yesterday.
-
-    If today is completed, streak counts backward from today.
-    If today is not completed, streak counts backward from yesterday.
-    If neither today nor yesterday is completed, returns 0.
-    """
     if habit is None:
         return 0
 
@@ -70,7 +48,6 @@ def calculate_current_streak(
     if not completed_set:
         return 0
 
-    # Determine whether streak starts today or yesterday
     if ref_date in completed_set:
         cursor = ref_date
     elif (ref_date - timedelta(days=1)) in completed_set:
@@ -87,10 +64,6 @@ def calculate_current_streak(
 
 
 def calculate_longest_streak(habit: Any = None) -> int:
-    """Calculate the longest consecutive daily completion streak.
-
-    Duplicates are ignored. Gaps reset the current count.
-    """
     if habit is None:
         return 0
 
@@ -118,12 +91,6 @@ def calculate_completion_rate(
     start_date: date | str | None = None,
     end_date: date | str | None = None,
 ) -> float:
-    """Calculate completion percentage (0.0 to 100.0) over a period.
-
-    If start_date is not given, uses habit's 'created_on' or earliest date.
-    If end_date is not given, defaults to today.
-    Handles zero-day durations safely without ZeroDivisionError.
-    """
     if habit is None:
         return 0.0
 
@@ -153,11 +120,6 @@ def weekly_summary(
     data: Any = None,
     today: date | str | None = None,
 ) -> dict[str, int]:
-    """Calculate 7-day completion count for every habit in data.
-
-    Returns a dictionary mapping habit ID (or name) to count of
-    completed days within the last 7 days (today - 6 days through today).
-    """
     summary: dict[str, int] = {}
     if not data:
         return summary
